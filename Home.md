@@ -78,7 +78,7 @@ git clone https://github.com/martinet101/WingetUI; cd wingetui
 
 ### Clone manually
 1. Open a browser and download the [source code](https://github.com/martinet101/WingetUI/archive/refs/heads/main.zip).
-2. Extract the files into a new folder. To do this, you can use any zip extractor, such as 7-zip, Winzip, etc... Or even [SomePythonThings Zip Manager](https://somepythonthings-zip-manager-64bit.uptodown.com/windows) (haha little spam for you)
+2. Extract the files into a new folder. To do this, you can use any zip extractor, such as 7-zip, Winzip, etc...
 <br><br>
 
 ## Installing dependencies
