@@ -12,7 +12,7 @@ AppGet was supported in release 0.3, but since that project has been discontinue
 
  1. [WingetUI](#wingetui)</b><br>
  2. [How does it work?](#how-does-it-work)</b><br>
- 3. [Is WingetUI safe?](#is-it-safe)</b><br>
+ 3. [Is WingetUI safe?](#Is-WingetUI-safe)</b><br>
  4. [Installation](#wingetui-installation)<br>
  5. [Common Problems](#common-problems)
  6. [Running and building the source code](#running-and-building-the-source-code)
