@@ -29,7 +29,7 @@ While most Windows users aren't very familiar with the concept, different packag
 
 There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. In 2020 Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
 
-However, there's no official graphical user interface for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. Therefore, WingetUI has the goal of providing a GUI for Winget-CLI (and other package managers available on Windows). 
+However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. Therefore, WingetUI has the goal of providing a GUI for Winget-CLI (and other package managers available on Windows). 
 
 So, WingetUI makes it easy for users to enjoy the capabilities of Winget-CLI and Scoop with a few clicks!
 
@@ -48,7 +48,7 @@ To mitigate the risks of downloading malware, Microsoft has implemented a few ch
 
 >We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine
 
-See more info about Winget at https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
+See more info about Winget-CLI at https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
