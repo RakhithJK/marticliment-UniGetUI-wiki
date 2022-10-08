@@ -29,7 +29,7 @@ You can install the app through [Scoop](https://scoop.sh/) as well (⚠️might 
 
 To install it that way, first it's necessary to add the Extras bucket: `scoop bucket add extras`
 
-execute the following in a CLI: `scoop install wingetui`
+Then, execute the following in a CLI: `scoop install wingetui`
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
