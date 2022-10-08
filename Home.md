@@ -11,13 +11,49 @@ AppGet was supported in release 0.3, but since that project has been discontinue
 ## Table of contents
 
  1. [WingetUI](#wingetui)</b><br>
- 2. [Installation](#wingetui-installation)<br>
- 3. [Common Problems](#common-problems)
- 4. [Running and building the source code](#running-and-building-the-source-code)
+ 2. [How does it work?](#how-does-it-work)</b><br>
+ 3. [Is using WingetUI safe?](#is-it-safe)</b><br>
+ 4. [Installation](#wingetui-installation)<br>
+ 5. [Common Problems](#common-problems)
+ 6. [Running and building the source code](#running-and-building-the-source-code)
     - [Cloning the source code](#cloning-the-source-code)
     - [Installing dependencies](#installing-dependencies)
     - [Running the source code](#running-the-source-code)
     - [Building WingetUI from source](#building-wingetui-from-source)
+
+# How does it work?
+
+To understand how WingetUI works, first it's necessary to understand what is a package manager. Basically, it's a software that allows the users to download, install, upgrade and uninstall computer programs with ease. 
+
+While most Windows users aren't very familiar with the concept, different package managers have existed on Linux for several years, such as APT on Debian/Ubuntu and Pacman on Arch Linux.
+
+There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. In 2020 Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
+
+However, there's no official graphical user interface for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. Therefore, WingetUI has the goal of providing a GUI for Winget-CLI (and other package managers available on Windows). 
+
+So, WingetUI makes it easy for users to enjoy the capabilities of Winget-CLI and Scoop with a few clicks!
+
+<br><br>
+_You have arrived at the end of the section. [Return to top](#wingetui)_
+***
+<br><br>
+
+# Is using WingetUI/Winget safe?
+
+WingetUI, Winget-CLI and Scoop are open-source applications, which makes it possible for anyone to verify that there's no malware in their source-code.
+
+However, WingetUI, Microsoft and Scoop aren't responsible for the packages available for download, which are provided by the community and theoretically can be compromised.
+
+To mitigate the risks of downloading malware, Microsoft has implemented a few checks for the software available on Winget-CLI:
+
+>We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine
+
+See more info about Winget at https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
+
+<br><br>
+_You have arrived at the end of the section. [Return to top](#wingetui)_
+***
+<br><br>
 
 # WingetUI Installation
 
@@ -39,7 +75,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 # Common Problems
 
 **Q: I am unable to install/update some Winget package**<br>
-A: This is likely a Winget-CLI issue. Please check if it is possible to install/update the package through PowerShell or cmd using the commands `winget upgrade` or `winget install` (for example: `winget upgrade --id Microsoft.PowerToys`). If this doesn't work you may try to get help at https://github.com/microsoft/winget-pkgs.<br>
+A: This is likely a Winget-CLI issue. Please check if it is possible to install/update the package through PowerShell or cmd using the commands `winget upgrade` or `winget install` (for example: `winget upgrade --id Microsoft.PowerToys`). If this doesn't work you may try to get help at https://github.com/microsoft/winget-pkgs<br>
 
 **Q: I am unable to fully see some package name/id (trimmed with ellipsis)**<br>
 A: This is a known Winget-CLI limitation. See more details at https://github.com/martinet101/WingetUI/issues/196<br>
@@ -48,7 +84,7 @@ A: This is a known Winget-CLI limitation. See more details at https://github.com
 A: Not yet. See more details at https://github.com/martinet101/WingetUI/issues/67<br>
 
 **Q: My antivirus is telling me that WingetUI is a virus/My antivirus is uninstalling WingetUI/My browser is blocking WingetUI download**<br>
-A: Just whitelist WingetUI on the antivirus quarantine box/antivirus settings<br>
+A: Just whitelist WingetUI on the antivirus quarantine box/antivirus settings.<br>
 
 **Q: Will Chocolatey be supported?**<br>
 A: Maybe in the future. See more details at https://github.com/martinet101/WingetUI/issues/56<br>
