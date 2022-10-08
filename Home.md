@@ -12,7 +12,7 @@ AppGet was supported in release 0.3, but since that project has been discontinue
 
  1. [WingetUI](#wingetui)</b><br>
  2. [How does it work?](#how-does-it-work)</b><br>
- 3. [Is using WingetUI safe?](#is-it-safe)</b><br>
+ 3. [Is WingetUI safe?](#is-it-safe)</b><br>
  4. [Installation](#wingetui-installation)<br>
  5. [Common Problems](#common-problems)
  6. [Running and building the source code](#running-and-building-the-source-code)
@@ -38,7 +38,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 ***
 <br><br>
 
-# Is using WingetUI/Winget safe?
+# Is WingetUI safe?
 
 WingetUI, Winget-CLI and Scoop are open-source applications, which makes it possible for anyone to verify that there's no malware in their source-code.
 
