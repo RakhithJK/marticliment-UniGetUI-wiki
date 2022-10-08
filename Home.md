@@ -6,7 +6,7 @@ From here, you'll be able to download, install, upgrade and uninstall any softwa
 
 AppGet was supported in release 0.3, but since that project has been discontinued, the support has been removed.
 
-**This project has no connection to the official Winget-CLI nor Scoop projects - it's completely unofficial.**
+**This project has no connection to the official Winget-CLI project — it's completely unofficial.**
 
 ## Table of contents
 
@@ -23,11 +23,13 @@ AppGet was supported in release 0.3, but since that project has been discontinue
 
 It's easy! Download and install the latest version of WingetUI by clicking [here](https://github.com/martinet101/WingetUI/releases/latest/download/WingetUI.Installer.exe)!
 
-You can also install WingetUI from winget: `winget install wingetui`
+You can also install WingetUI from [Winget-CLI](https://learn.microsoft.com/en-us/windows/package-manager/): `winget install wingetui`
 
-You can also install the app through [Scoop](https://scoop.sh/) (⚠️might cause issues, please install manually for the moment) since it's part of the Extras bucket (`scoop bucket add extras`).
+You can install the app through [Scoop](https://scoop.sh/) as well (⚠️might cause issues, please install manually or through Winget-CLI for the moment).
 
-To install it that way, execute the following in a CLI: `scoop install wingetui`
+To install it that way, first it's necessary to add the Extras bucket: `scoop bucket add extras`
+
+execute the following in a CLI: `scoop install wingetui`
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
@@ -36,11 +38,14 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 # Common Problems
 
-**Q: I am unable to update some Winget package**<br>
-A: This is likely a winget-cli issue. Please check if it is possible to install/update the package through PowerShell or cmd using the commands `winget upgrade` or `winget install` (for example: `winget upgrade --id Microsoft.PowerToys`). If this doesn't work you may try to get help at https://github.com/microsoft/winget-pkgs.<br>
+**Q: I am unable to install/update some Winget package**<br>
+A: This is likely a Winget-CLI issue. Please check if it is possible to install/update the package through PowerShell or cmd using the commands `winget upgrade` or `winget install` (for example: `winget upgrade --id Microsoft.PowerToys`). If this doesn't work you may try to get help at https://github.com/microsoft/winget-pkgs.<br>
+
+**Q: I am unable to fully see some package name/id (trimmed with ellipsis)**<br>
+A: This is a known Winget-CLI limitation. See more details at https://github.com/martinet101/WingetUI/issues/196<br>
 
 **Q: Can WingetUI be in my language?**<br>
-A: Not yet. See more details at https://github.com/martinet101/WingetUI/issues/67 <br>
+A: Not yet. See more details at https://github.com/martinet101/WingetUI/issues/67<br>
 
 **Q: My antivirus is telling me that WingetUI is a virus/My antivirus is uninstalling WingetUI/My browser is blocking WingetUI download**<br>
 A: Just whitelist WingetUI on the antivirus quarantine box/antivirus settings<br>
@@ -49,7 +54,7 @@ A: Just whitelist WingetUI on the antivirus quarantine box/antivirus settings<br
 A: Maybe in the future. See more details at https://github.com/martinet101/WingetUI/issues/56<br>
 
 **Q: Can I add "msstore" as a source for Winget?**<br>
-A: This is not possible nor planned for the near future. See more details at https://github.com/martinet101/WingetUI/issues/87
+A: This is not possible nor planned for the near future. See more details at https://github.com/martinet101/WingetUI/issues/87<br>
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
@@ -98,7 +103,7 @@ pip install -r ./requirements.txt
 
 ## Running the source code
 1. Open the local repository folder and navigate to a subfolder named wingetui
-2. Open a Command Prompt or Powershell Window on that folder
+2. Open a Command Prompt or PowerShell Window on that folder
 3. Run the following command:
 ```powershell
 python __init__.py
