@@ -27,7 +27,7 @@ To understand how WingetUI works, first it's necessary to understand what is a p
 
 While most Windows users aren't familiar with the concept, various package managers have existed on Linux for several years, such as APT on Debian/Ubuntu and Pacman on Arch Linux.
 
-There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. In 2020 Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
+There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. On 2020, Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
 
 However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. 
 
