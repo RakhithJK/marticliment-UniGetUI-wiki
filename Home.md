@@ -25,13 +25,17 @@ AppGet was supported in release 0.3, but since that project has been discontinue
 
 To understand how WingetUI works, first it's necessary to understand what is a package manager. Basically, it's a software that allows the users to download, install, upgrade and uninstall computer programs with ease. 
 
-While most Windows users aren't very familiar with the concept, different package managers have existed on Linux for several years, such as APT on Debian/Ubuntu and Pacman on Arch Linux.
+While most Windows users aren't familiar with the concept, various package managers have existed on Linux for several years, such as APT on Debian/Ubuntu and Pacman on Arch Linux.
 
 There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. In 2020 Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
 
-However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. Therefore, WingetUI has the goal of providing a GUI for Winget-CLI (and other package managers available on Windows). 
+However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. 
 
-So, WingetUI makes it easy for users to enjoy the capabilities of Winget-CLI and Scoop with a few clicks!
+Therefore, WingetUI provides a GUI for Winget-CLI and Scoop, making it easy for users to enjoy their capabilities without having to deal with a command-line interface (CLI).
+
+Learn more about Winget: https://learn.microsoft.com/en-us/windows/package-manager/
+
+Learn more about Scoop: https://scoop.sh/
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
@@ -42,13 +46,15 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 WingetUI, Winget-CLI and Scoop are open-source applications, which makes it possible for anyone to verify that there's no malware in their source-code.
 
-However, WingetUI, Microsoft and Scoop aren't responsible for the packages available for download, which are provided by the community and theoretically can be compromised.
+However, WingetUI, Microsoft and Scoop aren't responsible for the packages available for download, which are provided by third parties and can theoretically be compromised.
 
 To mitigate the risks of downloading malware, Microsoft has implemented a few checks for the software available on Winget-CLI:
 
 >We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine
 
-See more info about Winget-CLI at https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
+Even so, it's recommended to only download software from publishers that you trust.
+
+Source: https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
