@@ -106,7 +106,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 # Running and building the source code
 Cloning the source code is useful to be able to test WingetUI's source code, to debug it, to modify it, and even to build your custom WingetUI version with your custom features or fixes. Though this steps are really intuitive and are the same that most software use, here are the detailed steps required to achieve that.
 
-If you want to clone a specific version, you can download the source code in a zip file from [GitHub Releases](https://tracker.iplocation.net/holc)
+If you want to clone a specific version, you can download the source code in a zip file from [GitHub Releases](https://github.com/martinet101/WingetUI/releases)
 
 ## Cloning the source code
 
