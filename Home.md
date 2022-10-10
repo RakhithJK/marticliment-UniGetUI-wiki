@@ -32,7 +32,7 @@ There are a few unofficial package managers for Windows, such as Chocolatey, Sco
 However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. 
 
 Therefore, WingetUI provides a GUI for Winget-CLI and Scoop, making it easy for users to enjoy their capabilities without having to deal with a command-line interface (CLI).
-
+<br><br><br><br>
 Learn more about Winget: https://learn.microsoft.com/en-us/windows/package-manager/
 
 Learn more about Scoop: https://scoop.sh/
@@ -53,7 +53,7 @@ To mitigate the risks of downloading malware, Microsoft has implemented a few ch
 >We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine
 
 Even so, it's recommended to only download software from publishers that you trust.
-
+<br><br><br><br>
 Source: https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
 
 <br><br>
