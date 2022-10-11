@@ -2,7 +2,7 @@
 
 **First of all... What is WingetUI?** WingetUI is an application whose main goal is to create an intuitive UI to manage the most common CLI package managers for Windows, such as [Winget](https://learn.microsoft.com/en-us/windows/package-manager/) and [Scoop](https://scoop.sh/). 
 
-From here, you'll be able to download, install, update and uninstall any software published on Winget or Scoop — and so much more.
+With this app, you'll be able to download, install, update and uninstall any software that's published on the supported package managers — and so much more.
 
 AppGet was supported in release 0.3, but since that project has been discontinued, the support has been removed.
 
