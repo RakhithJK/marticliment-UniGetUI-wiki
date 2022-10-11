@@ -1,12 +1,12 @@
 # WingetUI
 
-**First of all... What is WingetUI?** WingetUI is an application whose main goal is to create a GUI Store for the most common CLI package managers for Windows, such as Winget and Scoop.
+**First of all... What is WingetUI?** WingetUI is an application whose main goal is to create an intuitive UI to manage the most common CLI package managers for Windows, such as [Winget](https://learn.microsoft.com/en-us/windows/package-manager/) and [Scoop](https://scoop.sh/). 
 
-From here, you'll be able to download, install, upgrade and uninstall any software published on Winget or Scoop.
+From here, you'll be able to download, install, update and uninstall any software published on Winget or Scoop — and so much more.
 
 AppGet was supported in release 0.3, but since that project has been discontinued, the support has been removed.
 
-**This project has no connection to the official Winget-CLI project — it's completely unofficial.**
+**Disclaimer:** This project has no connection with the official [Winget project](https://github.com/microsoft/winget-cli) — it's completely unofficial.
 
 ## Table of contents
 
@@ -29,10 +29,10 @@ While most Windows users aren't familiar with the concept, various package manag
 
 There are a few unofficial package managers for Windows, such as Chocolatey, Scoop and Ninite. On 2020, Microsoft finally decided to develop an official package manager, called Winget-CLI (inspired by the now defunct AppGet). 
 
-However, there's no official graphical user interface (GUI) for Winget. It's necessary a CLI (PowerShell or cmd) to be able to use it. 
+However, there's no official graphical user interface (GUI) for Winget and Scoop. It's necessary a CLI (PowerShell or cmd) to be able to use it. 
 
 Therefore, WingetUI provides a GUI for Winget-CLI and Scoop, making it easy for users to enjoy their capabilities without having to deal with a command-line interface (CLI).
-<br><br><br><br>
+<br><br><br>
 Learn more about Winget: https://learn.microsoft.com/en-us/windows/package-manager/
 
 Learn more about Scoop: https://scoop.sh/
@@ -53,7 +53,7 @@ To mitigate the risks of downloading malware, Microsoft has implemented a few ch
 >We are automatically checking each manifest. We leverage SmartScreen, static analysis, SHA256 hash validation and a few other processes to reduce the likelihood of malicious software making its way into the repository and onto your machine
 
 Even so, it's recommended to only download software from publishers that you trust.
-<br><br><br><br>
+<br><br><br>
 Source: https://devblogs.microsoft.com/commandline/windows-package-manager-preview/
 
 <br><br>
@@ -63,15 +63,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 # WingetUI Installation
 
-It's easy! Download and install the latest version of WingetUI by clicking [here](https://github.com/martinet101/WingetUI/releases/latest/download/WingetUI.Installer.exe)!
-
-You can also install WingetUI from [Winget-CLI](https://learn.microsoft.com/en-us/windows/package-manager/): `winget install wingetui`
-
-You can install the app through [Scoop](https://scoop.sh/) as well (⚠️might cause issues, please install manually or through Winget-CLI for the moment).
-
-To install it that way, first it's necessary to add the Extras bucket: `scoop bucket add extras`
-
-Then, execute the following in a CLI: `scoop install wingetui`
+<br><p align="center"><b>Check out the <a href="https://github.com/martinet101/WingetUI#installation">installation instructions</a> for more information!</b></p>
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
@@ -80,23 +72,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 # Common Problems
 
-**Q: I am unable to install/update some Winget package**<br>
-A: This is likely a Winget-CLI issue. Please check if it is possible to install/update the package through PowerShell or cmd using the commands `winget upgrade` or `winget install` (for example: `winget upgrade --id Microsoft.PowerToys`). If this doesn't work you may try to get help at https://github.com/microsoft/winget-pkgs<br>
-
-**Q: I am unable to fully see some package name/id (trimmed with ellipsis)**<br>
-A: This is a known Winget-CLI limitation. See more details at https://github.com/martinet101/WingetUI/issues/196<br>
-
-**Q: Can WingetUI be in my language?**<br>
-A: Not yet. See more details at https://github.com/martinet101/WingetUI/issues/67<br>
-
-**Q: My antivirus is telling me that WingetUI is a virus/My antivirus is uninstalling WingetUI/My browser is blocking WingetUI download**<br>
-A: Just whitelist WingetUI on the antivirus quarantine box/antivirus settings.<br>
-
-**Q: Will Chocolatey be supported?**<br>
-A: Maybe in the future. See more details at https://github.com/martinet101/WingetUI/issues/56<br>
-
-**Q: Can I add "msstore" as a source for Winget?**<br>
-A: This is not possible nor planned for the near future. See more details at https://github.com/martinet101/WingetUI/issues/87<br>
+<br><p align="center"><b>Check out the <a href="https://github.com/martinet101/WingetUI#faq">FAQ</a> for more information!</b></p>
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
