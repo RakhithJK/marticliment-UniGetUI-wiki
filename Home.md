@@ -136,3 +136,49 @@ python __init__.py
 _You have arrived at the end of the section. [Return to top](#wingetui)_
 ***
 <br><br>
+
+
+# Translating WingetUI
+Since WingetUI is an app that wants to reach every single person in the world running Windows 11, on issue [#111](https://github.com/martinet101/WingetUI/issues/67) it was requested to add this feature. And here we are. On this page you will find useful information about how does the WingetUI translation program works and how to participate on it, because anyone can contribute here!
+
+You can check the supported languages [here](#supported-languages). If you want to add a new language, drop an e-mail at [marticlilop@gmail.com](mailto:marticlilop@gmail.com)
+
+## How does it work (Nerd section)
+
+The method WingetUI uses to translate the UI is based on JSONs, containing a reference sentence and a translated sentence. Every language file codes for a different language, and every language is stored on one single file. If a translation is missing, the program will fallback to English, providing always a readable UI for everyone. Those language files need to be registered to be used, and this is done in [languages.py](https://github.com/martinet101/WingetUI/blob/main/WingetUI/languages.py).
+
+## Contributing
+
+Either if you want to update an already existing language or you want to create a new one, the steps are the same:
+1. Log in or create an account in [Tolgee](https://app.tolgee.io/projects/). You can log in with GitHub, if you prefer.
+
+![image](https://user-images.githubusercontent.com/53119851/172662695-2842c827-6a03-482a-9264-c17c31382251.png)
+
+2. E-mail me to [marticlilop@gmail.com](mailto:marticlilop@gmail.com) with the following information: the mail you used for registration and the languages where you are willing to contribute.
+
+3. I'll accept you (or not hehe) and you'll find the WingetUI project in your [Tolgee Dashboard](https://app.tolgee.io/projects/)
+![image](https://user-images.githubusercontent.com/53119851/172662758-a5b766d2-81cc-454b-90fb-f3abf6def65e.png)
+
+4. Now select the language you want to translate
+![image](https://user-images.githubusercontent.com/53119851/172663274-614b8363-ba0f-4841-ab7c-6320aa496853.png)
+
+5. To make things easier, you can filter the untranslated strings
+![image](https://user-images.githubusercontent.com/53119851/172664131-a79ed8a5-4c2f-4b2d-823c-bdfb142ec48c.png)
+
+6. You can then start translating. The changes will be included with the next WingetUI release.
+![image](https://user-images.githubusercontent.com/53119851/172664301-1935d61f-ed16-47e9-98e4-860eab4e13a8.png)
+
+
+## Rules:
+ - Make sure **not to modify the original strings**. If this happened the translation wouldn't work at all.
+ - Make sure to add any final stop/colon/semicolon/hyphen/etc.
+ - Make sure to add the {0} symbols, since they code for variable values
+
+## Supported languages  
+[List of supported languages here](https://github.com/martinet101/WingetUI#currently-supported-languages)
+ 
+
+<br><br>
+_You have arrived at the end of the section. [Return to top](#wingetui)_
+***
+<br><br>
