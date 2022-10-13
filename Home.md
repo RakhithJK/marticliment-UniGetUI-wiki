@@ -20,6 +20,7 @@ AppGet was supported in release 0.3, but since that project has been discontinue
     - [Installing dependencies](#installing-dependencies)
     - [Running the source code](#running-the-source-code)
     - [Building WingetUI from source](#building-wingetui-from-source)
+ 7. [Translating WingetUI](#translating-wingetui)
 
 # How does it work?
 
