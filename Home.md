@@ -115,7 +115,7 @@ When Python 3.10 is installed:
 2. Make sure you have `pip` installed. You can see how to install pip here: https://pip.pypa.io/en/stable/installation/
 2. Open a Command Prompt or PowerShell window and run:
 ```powershell
-pip install -r ./requirements.txt
+py -m pip install -r ./requirements.txt
 ```
 3. Wait for it to finish
 <br><br>
