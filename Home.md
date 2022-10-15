@@ -21,7 +21,7 @@ AppGet was supported in release 0.3, but since that project has been discontinue
     - [Running the source code](#running-the-source-code)
     - [Building WingetUI from source](#building-wingetui-from-source)
  7. [Translating WingetUI](#translating-wingetui)
-    - [How does it work (Nerd section)](#how-does-it-work)
+    - [How does it work (Nerd section)](#how-does-it-work-nerd-section)
     - [Contributing](#contributing)
     - [Rules](#rules)
     - [Supported languages](#supported-languages)
