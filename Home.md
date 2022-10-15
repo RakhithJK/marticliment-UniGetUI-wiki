@@ -144,7 +144,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 
 # Translating WingetUI
-Since WingetUI is an app that wants to reach every single person in the world running Windows 11, on issue [#111](https://github.com/martinet101/WingetUI/issues/67) it was requested to add this feature. And here we are. On this page you will find useful information about how does the WingetUI translation program works and how to participate on it, because anyone can contribute here!
+Since WingetUI is an app that wants to reach every single person in the world running Windows 11, on issue [#67](https://github.com/martinet101/WingetUI/issues/67) it was requested to add this feature. And here we are. On this page you will find useful information about how does the WingetUI translation program works and how to participate on it, because anyone can contribute here!
 
 You can check the supported languages [here](#supported-languages). If you want to add a new language, drop an e-mail at [marticlilop@gmail.com](mailto:marticlilop@gmail.com)
 
