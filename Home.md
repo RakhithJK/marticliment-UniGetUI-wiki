@@ -21,6 +21,10 @@ AppGet was supported in release 0.3, but since that project has been discontinue
     - [Running the source code](#running-the-source-code)
     - [Building WingetUI from source](#building-wingetui-from-source)
  7. [Translating WingetUI](#translating-wingetui)
+    - [How does it work (Nerd section)](#how-does-it-work)
+    - [Contributing](#contributing)
+    - [Rules](#rules)
+    - [Supported languages](#supported-languages)
 
 # How does it work?
 
@@ -169,13 +173,14 @@ Either if you want to update an already existing language or you want to create 
 6. You can then start translating. The changes will be included with the next WingetUI release.
 ![image](https://user-images.githubusercontent.com/53119851/172664301-1935d61f-ed16-47e9-98e4-860eab4e13a8.png)
 
+## Rules
 
-## Rules:
  - Make sure **not to modify the original strings**. If this happened the translation wouldn't work at all.
  - Make sure to add any final stop/colon/semicolon/hyphen/etc.
  - Make sure to add the {0} symbols, since they code for variable values
 
 ## Supported languages  
+
 [List of supported languages here](https://github.com/martinet101/WingetUI#currently-supported-languages)
  
 
