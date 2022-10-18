@@ -123,6 +123,9 @@ py -m pip install -r ./requirements.txt
 ```
 If it fails, as an alternative, run `pip install -r ./requirements.txt`
 
+Aditionally you can try the following if you are still getting errors: go to C:\Users\{username}\AppData\Local\Programs\Python\Python310\Scripts
+and run `python pywin32_postinstall.py -install`
+
 3. Wait for it to finish
 <br><br>
 
