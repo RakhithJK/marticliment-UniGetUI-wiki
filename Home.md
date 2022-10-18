@@ -121,6 +121,8 @@ When Python 3.10 is installed:
 ```powershell
 py -m pip install -r ./requirements.txt
 ```
+If it fails, as an alternative, run `pip install -r ./requirements.txt`
+
 3. Wait for it to finish
 <br><br>
 
