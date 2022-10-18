@@ -193,3 +193,6 @@ Either if you want to update an already existing language or you want to create 
 _You have arrived at the end of the section. [Return to top](#wingetui)_
 ***
 <br><br>
+
+# The icon and screenshots database
+This section is still under constrcution. Check back later ;)
