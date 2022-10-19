@@ -117,7 +117,7 @@ Python 3.10 is required to run WingetUI. Other versions of python are **NOT** su
 When Python 3.10 is installed:
 1. Open the folder where the WingetUI source is located. Open the **ROOT** folder of the repo, **NOT** the folder where __init__.py is placed
 2. Make sure you have `pip` installed. You can see how to install pip here: https://pip.pypa.io/en/stable/installation/
-2. Open a Command Prompt or PowerShell window and run:
+2. Open a Command Prompt or PowerShell window there and run:
 ```powershell
 py -m pip install -r ./requirements.txt
 ```
