@@ -195,4 +195,4 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 <br><br>
 
 # The icon and screenshots database
-This section is still under constrcution. Check back later ;)
+The icon and screenshot database is still limited, but we are going to (hopefully soon) open a contribution platform. It is just not finished yet, so check back later! Thanks!
