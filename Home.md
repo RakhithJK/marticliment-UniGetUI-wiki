@@ -153,6 +153,8 @@ Since WingetUI is an app that wants to reach every single person in the world ru
 
 You can check the supported languages [here](#supported-languages). If you want to add a new language, drop an e-mail at [marticlilop@gmail.com](mailto:marticlilop@gmail.com)
 
+⚠️ Please, do not create a pull request — follow the instructions below, it's quite easy to translate using Tolgee!
+
 ## How does it work (Nerd section)
 
 The method WingetUI uses to translate the UI is based on JSONs, containing a reference sentence and a translated sentence. Every language file codes for a different language, and every language is stored on one single file. If a translation is missing, the program will fallback to English, providing always a readable UI for everyone. Those language files need to be registered to be used, and this is done in [languages.py](https://github.com/martinet101/WingetUI/blob/main/WingetUI/languages.py).
