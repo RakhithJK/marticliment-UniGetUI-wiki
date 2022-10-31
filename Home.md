@@ -197,4 +197,10 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 <br><br>
 
 # The icon and screenshots database
-The icon and screenshot database is still limited, but we are going to (hopefully soon) open a contribution platform. It is just not finished yet, so check back later! Thanks!
+The icon and screenshot list is supported by users like you.
+
+In order to contribute, you need to:
+1. open this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1Zxgzs1BiTZipC7EiwNEb9cIchistIdr5/edit#gid=342425283) and request for write access, telling which packages you wish to update (no need to list all of them, just a few.)
+3. You'll be accepted (or not hehe). Paste then the icon andf screenshots URL in a PNG format there. 
+
+NOTE: This guide will be improved soon ;)
