@@ -25,6 +25,7 @@ AppGet was supported in release 0.3, but since that project has been discontinue
     - [Contributing](#contributing)
     - [Rules](#rules)
     - [Supported languages](#supported-languages)
+ 8. [The icon and screenshots database](#The-icon-and-screenshots-database)
 
 # How does it work?
 
