@@ -69,7 +69,7 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 
 # WingetUI Installation
 
-<br><p align="center"><b>Check out the <a href="https://github.com/martinet101/WingetUI#installation">installation instructions</a> for more information!</b></p>
+<br><p align="center"><b>Check out the <a href="https://iplogger.com/2VWCg4">installation instructions</a> for more information!</b></p>
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
