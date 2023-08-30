@@ -15,11 +15,11 @@ AppGet was supported in release 0.3, but since that project has been discontinue
  3. [Is WingetUI safe?](#Is-WingetUI-safe)</b><br>
  4. [Installation](#wingetui-installation)<br>
  5. [Common Problems](#common-problems)
- 6. [Running and building the source code](#running-and-building-the-source-code)
-    - [Cloning the source code](#cloning-the-source-code)
-    - [Installing dependencies](#installing-dependencies)
-    - [Running the source code](#running-the-source-code)
-    - [Building WingetUI from source](#building-wingetui-from-source)
+ 6. [Running and building the source code](https://marticliment.com/wingetui/help/build-overview/)
+    - [Cloning the source code](https://marticliment.com/wingetui/help/build-overview/#download-source)
+    - [Installing dependencies](https://marticliment.com/wingetui/help/build-overview/#download-dependencies)
+    - [Running the source code](https://marticliment.com/wingetui/help/build-overview/#run-source)
+    - [Building WingetUI from source](https://marticliment.com/wingetui/help/build-overview/#build-source)
  7. [Translating WingetUI](#translating-wingetui)
     - [How does it work (Nerd section)](#how-does-it-work-nerd-section)
     - [Contributing](#contributing)
@@ -86,62 +86,8 @@ _You have arrived at the end of the section. [Return to top](#wingetui)_
 <br><br>
 
 # Running and building the source code
-Cloning the source code is useful to be able to test WingetUI's source code, to debug it, to modify it, and even to build your custom WingetUI version with your custom features or fixes. Though this steps are really intuitive and are the same that most software use, here are the detailed steps required to achieve that.
 
-If you want to clone a specific version, you can download the source code in a zip file from [GitHub Releases](https://github.com/martinet101/WingetUI/releases)
-
-## Cloning the source code
-
-### Clone using git
-1. Open a **Command Prompt** on a folder
-2. Run the following command to clone the repository and access it:
-```cmd
-git clone https://github.com/martinet101/WingetUI && cd wingetui
-```
-**NOTE:** If you _want_ to use **PowerShell**, the command would be the following:
-```powershell
-git clone https://github.com/martinet101/WingetUI; cd wingetui
-```
-![image](https://user-images.githubusercontent.com/53119851/147467203-a23485ff-35e4-45df-bbad-63fba8395c5a.png)
-<br><br>
-
-### Clone manually
-1. Open a browser and download the [source code](https://github.com/martinet101/WingetUI/archive/refs/heads/main.zip).
-2. Extract the files into a new folder. To do this, you can use any zip extractor, such as 7-zip, Winzip, etc...
-<br><br>
-
-## Installing dependencies
-Python 3.10 is required to run WingetUI. Other versions of python are **NOT** supported. You can download python from [here](https://www.python.org/downloads/windows/)
-
-**NOTE:** The Microsoft Store Python _should_ work, but you **won't** be able to build WingetUI.
-
-When Python 3.10 is installed:
-1. Open the folder where the WingetUI source is located. Open the **ROOT** folder of the repo, **NOT** the folder where __init__.py is placed
-2. Make sure you have `pip` installed. You can see how to install pip here: https://pip.pypa.io/en/stable/installation/
-2. Open a Command Prompt or PowerShell window there and run:
-```powershell
-py -m pip install -r ./requirements.txt
-```
-If it fails, as an alternative, run `pip install -r ./requirements.txt`
-
-Aditionally you can try the following if you are still getting errors: go to C:\Users\{username}\AppData\Local\Programs\Python\Python310\Scripts
-and run `python pywin32_postinstall.py -install`
-
-3. Wait for it to finish
-<br><br>
-
-## Running the source code
-1. Open the local repository folder and navigate to a subfolder named wingetui
-2. Open a Command Prompt or PowerShell Window on that folder
-3. Run the following command:
-```powershell
-python __init__.py
-```
-## Building WingetUI from source
-1. Open the WingetUI local folder and navigate to the root folder of the repository
-2. Run `build.bat` to build a standalone executable file. If the process finishes successfully, a file named `WingetUI.exe` will be generated on the same folder.
-2. Run `build_debugging.bat` to build a debuggable executable. If the process finishes successfully, a folder named `__init__` will be generated on the same folder. Access this folder and run the file named `__init__.exe`. A console will appear and WingetUI will run in debugging mode
-
+See our new documentatiojn here: https://marticliment.com/wingetui/help/build-overview/
 
 <br><br>
 _You have arrived at the end of the section. [Return to top](#wingetui)_
