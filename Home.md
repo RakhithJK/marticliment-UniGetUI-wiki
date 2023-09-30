@@ -107,15 +107,15 @@ You can check the supported languages [here](#supported-languages). If you want 
 The method WingetUI uses to translate the UI is based on JSONs, containing a reference sentence and a translated sentence. Every language file codes for a different language, and every language is stored on one single file. If a translation is missing, the program will fallback to English, providing always a readable UI for everyone. Those language files need to be registered to be used, and this is done in [languages.py](https://github.com/martinet101/WingetUI/blob/main/wingetui/languages.py).
 
 ## Contributing
-
+#### ⚠️ We have moved to from https://app.tolgee.io to https://tolgee.marticliment.com ⚠️
 Either if you want to update an already existing language or you want to create a new one, the steps are the same:
-1. Log in or create an account in [Tolgee](https://app.tolgee.io/projects/). You can log in with GitHub, if you prefer.
+1. Log in or create an account in [Tolgee](https://tolgee.marticliment.com/projects/). You can log in with GitHub, if you prefer.
 
 ![image](https://user-images.githubusercontent.com/53119851/172662695-2842c827-6a03-482a-9264-c17c31382251.png)
 
 2. E-mail me to [marticlilop@gmail.com](mailto:marticlilop@gmail.com) with the following information: the mail you used for registration and the languages where you are willing to contribute.
 
-3. I'll accept you (or not hehe) and you'll find the WingetUI project in your [Tolgee Dashboard](https://app.tolgee.io/projects/)
+3. I'll accept you (or not hehe) and you'll find the WingetUI project in your [Tolgee Dashboard](https://tolgee.marticliment.com/projects/)
 ![image](https://user-images.githubusercontent.com/53119851/172662758-a5b766d2-81cc-454b-90fb-f3abf6def65e.png)
 
 4. Now select the language you want to translate
